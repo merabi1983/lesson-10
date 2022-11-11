@@ -19,7 +19,7 @@
     justify-content: space-between;
     border: 2px solid blue;
 }
-.footer {
+.about-footer {
     max-width: 1440px;
     width: 96%;
     margin: auto;
@@ -35,4 +35,34 @@ footer {
 }
 h2{
     color: white;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    padding-bottom: 210px;
+}
+.text iframe {
+    max-width: 497px;
+    height: 197px;
+}
+.sim1 {
+    display: flex;
+    padding: 30px;
+    background-color: white;
+    max-width: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.sim2 {
+    padding: 30px;
+    background-color: white;
+    max-width: 150px;
+    margin-left: 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.sims {
+    display: flex;
 }
